@@ -11,15 +11,19 @@
 
 <body>
   <div class="wrapper">
+
     <form class="form">
       <label>
-        <input class="input-search" type="text" name="search-text" placeholder="Search images..." required>
+        <input class="input-search" type="text" name="search-text" placeholder="Search images..." required />
       </label>
       <button class="btn-submit" type="submit">Search</button>
     </form>
 
-    <div><span class="loader">Loading</span></div>
+    <div class="loader hidden">Loading...</div>
+
     <ul class="gallery"></ul>
+
+    <button class="btn-load-more hidden">Load More</button>
   </div>
 
   <script type="module" src="./main.js"></script>

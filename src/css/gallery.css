@@ -115,3 +115,15 @@
   box-sizing: border-box;
   animation: animloader 1s linear infinite;
 }
+
+.btn-load-more {
+  display: none;
+}
+
+.btn-load-more.hidden {
+  display: none;
+}
+
+.btn-load-more:not(.hidden) {
+  display: block;
+}
