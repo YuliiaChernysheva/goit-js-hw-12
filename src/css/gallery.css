@@ -148,3 +148,7 @@
 .btn-load-more:not(.hidden) {
   display: block;
 }
+
+.hidden {
+  display: none !important;
+}

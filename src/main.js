@@ -31,6 +31,8 @@ form.addEventListener('submit', async e => {
     return;
   }
 
+  currentPage = 1;
+  currentHits = 0;
   clearGallery();
   showLoader();
 
